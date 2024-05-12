@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="card__titel">
+            <h1>Лучшие товары</h1>
+        </div>
+        
+        <ul class="cards">
+            <li class="card">
+                <picture class="card_picture">
+                    <source srcset="images/adidas-mobile.jpg" media="(max-width: 660px)">
+                    <img class="card__img" src="images/adidas.jpg" alt="adidas originals gazelle"/>
+                </picture>
+                <span class="card__price">9 900 P</span>
+                <p class="card__text">GAZELLE<br/>adidas Originals</p>
+            </li>
+                
+            <li class="card">
+                <picture class="card_picture">
+                    <source srcset="images/jordan-mobile.jpg" media="(max-width: 660px)">
+                    <img class="card__img" src="images/jordan.jpg" alt="jordan 1 mid se"/>
+                </picture>
+                <span class="card__price">16 500 P</span>
+                <p class="card__text">1 MID SE<br/>Jordan</p>
+            </li>
+                
+            <li class="card">
+                <picture class="card_picture">
+                    <source srcset="images/race-mobile.jpg" media="(max-width: 660px)">
+                    <img class="card__img" src="images/race.jpg" alt="new balance x race"/>
+                </picture>
+                <span class="card__price">14 990 P</span>
+                <p class="card__text">X-RACE<br/>New balance</p>
+            </li>
+        </ul>
+        
+    </div>
+    
+</body>
+</html>
